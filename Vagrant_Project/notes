@@ -1,0 +1,16 @@
+1. Create a vagrant file uysing the command `touch vagrantfile`
+2. Configure it manually specifyng the master and the slave
+3. Vagrant validate - if valid do varant up and ssh into the master.
+4. Compile manual command to form a script.
+5. In the script, run updates and then commands to install apache2, php, and mysquel
+6. Clone and run LAMP/Laravel setup in the script. 
+7. Configure the script to work automatically.
+8. Install Ansible on the master.
+9. SSH into slave
+10. Connect master to slave by generating ssh-keys on master and sharing the public key with the slave.
+11. Write ansible playbook and inventory file on the master.
+12. ping slave from master.
+13. If ping is successful, run the playbook.
+
+
+
